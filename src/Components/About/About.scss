@@ -1,0 +1,50 @@
+.container2{
+    width: 45%;
+    margin: auto;
+    height: 100%;
+    position: relative;
+    top: 5%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1%;
+    box-shadow: 5px 10px #888888;
+    color: black;
+    animation: uping 3s ;
+    
+    h1,h2{
+        font-family: 'CoolveticaRg-Regular';
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    h2{
+        font-size: 3.1rem;
+    }
+    h3{
+        font-family: "CoolveticaRg-Regular";
+        font-size: 2.7rem;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+    li{
+        font-size: 1.3rem;
+    }
+    .buttonWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .btn{
+            padding: 10px 18px;
+            font-size: 13px;
+        }
+}
+
+@keyframes uping{
+    0%{
+        top: 110%
+    }
+    100%{
+        top: 5%
+    }
+}

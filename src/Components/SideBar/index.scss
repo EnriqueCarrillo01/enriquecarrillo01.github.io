@@ -1,0 +1,55 @@
+.nav-bar{
+    background-color: #0f0f0f;
+    
+    
+    // background-image: radial-gradient(circle at 0% 0%, #ff6afb 0, #ff65f4 16.67%, #e75ee9 33.33%, #be55d8 50%, #964cc5 66.67%, #7143b4 83.33%, #4f3ca3 100%);;
+    // background-image: radial-gradient(circle at 69.24% 102.87%, #c467c7 0, #b059bf 25%, #9a49b6 50%, #833aad 75%, #6b2ea6 100%);
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    img{
+        max-height: 70px;
+        max-width: 200px;
+        padding-left: 10px;
+    }
+    nav{
+        display: block;
+        text-align: center;
+        margin: auto;
+
+        a {
+        height: 30px;
+        padding: 10px;
+
+        font-size: 30px;
+
+        line-height: 50px;
+        padding: 10px 20px;
+
+        height: 51px;
+        .icono{
+            &:hover{
+                transform: scale(1.1);
+                color: yellow;
+            }   
+        }
+        }
+         
+         }
+         .lastDiv{
+            list-style: none;
+          display: flex;
+         margin: auto 0;
+              padding-right: 10px;
+         a{
+            padding-right: 10px;
+            text-decoration: none;
+            font-size: 30px;
+            color: white;
+            &:hover{
+                transform: scale(1.1);
+                color: yellow;
+            }  
+         }
+     }
+}
